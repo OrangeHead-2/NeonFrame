@@ -99,15 +99,6 @@ requestAnimationFrame(loop);
 - [USAGE.md](USAGE.md) – Full, detailed usage guide with step-by-step instructions.
 - [API Reference (inline JSDoc)](src/render3d/) – See code comments for every class and function.
 
----
-
-## Extending NeonFrame
-
-- Add more lights, meshes, or advanced materials.
-- Use your own geometry or import glTF/OBJ models.
-- Implement animation, post-processing, or a scene graph as needed.
-
----
 
 ## License
 
