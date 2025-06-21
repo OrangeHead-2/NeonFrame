@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeonFrame State Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="editor-app">
+    <header>
+      <h1>NeonFrame State Editor</h1>
+      <button id="add-state">Add State</button>
+      <button id="save">Save</button>
+      <input id="loadfile" type="file" style="display:none" />
+      <button id="load">Load</button>
+      <span id="status"></span>
+    </header>
+    <main>
+      <canvas id="state-canvas" width="960" height="540"></canvas>
+      <aside id="inspector">
+        <h2>State Properties</h2>
+        <div id="state-properties"></div>
+      </aside>
+    </main>
+  </div>
+  <script type="module" src="editor.js"></script>
+</body>
+</html>

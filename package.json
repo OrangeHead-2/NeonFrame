@@ -1,0 +1,34 @@
+{
+  "name": "neonframe",
+  "version": "1.0.0",
+  "description": "A lightweight yet powerful HTML5 game framework with WebGL acceleration and a component-based architecture.",
+  "main": "dist/neonframe.js",
+  "module": "dist/neonframe.js",
+  "types": "dist/neonframe.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node tests/unit/core.test.js && node tests/unit/physics.test.js && node tests/unit/render.test.js",
+    "lint": "eslint src/",
+    "start": "http-server examples/"
+  },
+  "keywords": [
+    "game",
+    "framework",
+    "html5",
+    "webgl",
+    "canvas",
+    "physics",
+    "component",
+    "neonframe"
+  ],
+  "author": "NeonFrame Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "canvas": "^2.11.2",
+    "eslint": "^8.58.0",
+    "rollup": "^4.15.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {}
+}
